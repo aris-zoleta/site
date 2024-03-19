@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Site</title>
+    <title>OPU Index</title>
     <style>
         body {
             font-family: Georgia, serif; /* Change the font-family to the desired font */
@@ -30,39 +30,56 @@
             font-size: 18px; /* Adjust font size for section names */
         }
 
-
+        /* Responsive CSS using media queries */
+        @media only screen and (max-width: 600px) {
+            body {
+                margin: 0.5cm; /* Adjust margin for smaller screens */
+            }
+            .nav-container {
+                text-align: center; /* Center align navigation links */
+            }
+            .nav-container a {
+                display: block; /* Make navigation links block-level for stacking */
+                margin-right: 0; /* Remove right margin */
+            }
+        }
     </style>
 </head>
 
 <body>
     <main>
         <section id="home">
-            <h2>Aris Zoleta</h2>
+            <h2>Oil Price Uncertainty (OPU) Index</h2>
             <p></p>
         </section>
-
 
         <div class="nav-container">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="blog.html">Blogpost</a>
             <a href="research.html">Research</a>
+            <a href="download.html">Download</a>
             <a href="contact.html">Contact</a>
         </div>
+        
+        
+       <section id="Publication">
+            <h2>Journal Publication</h2>
+        
+            <p>Zoleta, Aris. The Role of Public Investment in Pandemic Recovery. DLSU Business and Economic Review, 32(2), January 2023.
+
+</p>
+            <a href="https://www.dlsu.edu.ph/wp-content/uploads/2023/05/6zoleta-51123.pdf">Full Paper Download</a>
+
+        </section>
 
 
         
-        <section id="Publication">
-            <h2>Publication</h2>
+    </main>
 
-          <section>
-        
-      <section id="Conference Proceeding">
-            <h2>Conference Proceeding</h2>
-      <p>  Large-Scale Asset Purchase and Sovereign Debt Market During the Pandemic. <p>
-    <p> ADBI-APAEA-Bank Indonesia Workshop on Central Banking. Forthcoming October 05, 2023 <p>
-      
-          <section>
-        
+    <footer>
+        <p>&copy; Disclaimer: Views expressed on this site are solely the author's and do not reflect those of the others</p>
+    </footer>
+
 </body>
 </html>
